@@ -1,0 +1,45 @@
+# Instructions
+
+c'est un projet (formation HTML et CSS3 - Initiation) avec slidev , vérifiez si le contenu d'une diapositive est trop long pour s'adapter confortablement sur une seule diapositive.
+Si c'est le cas, divisez le contenu en plusieurs diapositives tout en conservant toutes les informations.
+Utilisez la syntaxe Slidev Markdown (par exemple, '--- pour séparer les diapositives).
+Assurez-vous que le contenu divisé circule logiquement et ne perturbe pas le récit.
+
+ET NE SUPPRIME ABSOLUMENT RIEN de toi même !
+ne supprime aucun routeAlias non plus , ne supprime RIEN
+
+attention je précise : certains bloc de code sont tellement gros qu'il dépasse une slide complète,
+dans ce cas : divise le en plusieurs slides MAIS EN GARDANT TOUT LE CODE , NE SUPPRIME RIEN
+
+après un bloc de code, passe directement à la slide d'après
+
+# Règles de formatage pour les présentations Slidev
+
+## Structure du projet
+- Maintenir un sommaire central dans slides.md avec des liens vers les modules
+- Utiliser des routeAlias uniquement pour les slides d'introduction de modules
+- Organiser les pages dans le dossier pages/ avec une numérotation cohérente
+- Suivre la convention de nommage : XX-nom-du-module.md
+
+## Navigation et Sommaire
+- Créer un sommaire principal avec des liens vers les modules
+- Utiliser le composant <Link to="routeAlias"> pour la navigation
+- Placer les routeAlias uniquement sur les slides d'introduction de modules et <a href="le_meme_nom_de_la_page"> pour les liens internes via pdf
+- Maintenir une structure de navigation cohérente
+
+## Structure des modules
+- Chaque module doit avoir :
+  - Une slide d'introduction avec routeAlias
+  - Un contenu principal
+  - Des exercices pratiques (si applicable)
+  - Un QCM de validation (si applicable)
+
+## Exercices et QCM
+- Inclure des exercices pratiques pour chaque module technique
+- Ajouter des QCM pour valider les connaissances
+- Maintenir une progression de difficulté cohérente (comme si tu commençais de zéro)
+- Fournir des solutions détaillées
+
+n'oublie pas le sujet de formation est :
+
+HTML et CSS3 - Initiation // 01 au 03 avril 2026
